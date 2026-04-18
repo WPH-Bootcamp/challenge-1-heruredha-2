@@ -1,1 +1,23 @@
-/* code here */
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: grey;
+}
+@media (max-width: 600px) {
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: rgb(185, 247, 110);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header div img.logo {
+    height: 50px;
+    padding-left: 40px;
+    border-radius: 50px;
+  }
+  header div img.burger {
+    padding-right: 40px;
+  }
+}
