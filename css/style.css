@@ -56,4 +56,43 @@ body {
   section.tentangkami h2 {
     margin: 0px;
   }
+  section.kerja {
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(white, rgb(67, 186, 3) 100%);
+  }
+  section.kerja div.gambarkerja {
+    text-align: center;
+    color: rgb(64, 62, 62);
+  }
+  section.kerja div.gambarkerja img {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+  }
+  section.hubungi {
+    height: 250px;
+    background: rgb(67, 186, 3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  section.hubungi button {
+    height: 40px;
+    width: 200px;
+    border: 2px solid grey;
+    background-color: rgb(27, 225, 27);
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+  }
+  footer {
+    background-color: rgb(67, 186, 3);
+    text-align: center;
+    font-size: small;
+  }
 }
